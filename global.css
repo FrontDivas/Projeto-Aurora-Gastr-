@@ -12,6 +12,8 @@ box-sizing: border-box;
 --color-secundary-dark:#101821;
 --color-secundary-L_gray: #5C6574;
 --color-primary-orange:#EA6D27;
+--color-primary-orange-10:rgba(234, 109, 39, 0.1);
+--color-black: #000000;
 
 --font-size-h1:60px;
 --font-size-h2:48px;

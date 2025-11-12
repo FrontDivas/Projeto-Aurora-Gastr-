@@ -1,0 +1,31 @@
+@import url(../../global.css);
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.nav-header ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-header-item{
+    color: var(--color-black);
+    text-decoration: none;
+    font-family: var(--font-familly-inter);
+    font-size: var(--font-size-body);
+
+}
+
+.btn-header{
+    background-color: var(--color-primary-orange);
+    padding: 12px 30px;
+    border-radius: 15px 3px;
+    color: var(--color-secundary-white);
+    text-decoration: none;
+    font-family: var(--font-familly-david-libre);
+}
