@@ -1,0 +1,27 @@
+*{
+border: 0;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+:root {
+--color-alerts-green: #004E05;
+--color-alerts-red: #770000;
+--color-secundary-white:#ffffff;
+--color-secundary-dark:#101821;
+--color-secundary-L_gray: #5C6574;
+--color-primary-orange:#EA6D27;
+
+--font-size-h1:60px;
+--font-size-h2:48px;
+--font-size-h3:28px;
+--font-size-h4:22px;
+--font-size-button: 20px;
+--font-size-body: 16px;
+
+
+--font-familly-inter: "Inter", sans-serif;
+--font-familly-david-libre: "David Libre", serif;
+
+}
