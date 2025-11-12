@@ -14,6 +14,8 @@ box-sizing: border-box;
 --color-primary-orange:#EA6D27;
 --color-primary-orange-10:rgba(234, 109, 39, 0.1);
 --color-black: #000000;
+--color-black-25: rgba(0, 0, 0, 0.25);
+--color-cinza: #D3D3D3;
 
 --font-size-h1:60px;
 --font-size-h2:48px;
