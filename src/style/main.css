@@ -1,0 +1,61 @@
+
+@import url(../../global.css);
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 60px 0px;
+}
+
+.content-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1{
+    color: var(--color-black);
+    font-family: var(--font-familly-david-libre);
+    font-size: var(--font-size-h1);
+    width: 562px;
+}
+
+.content-main span{
+    color: var(--color-primary-orange);
+}
+
+.content-main p{
+    color: var(--color-secundary-L_gray);
+    font-size: var(--font-size-body);
+    font-family: var(--font-familly-inter);
+    width: 544px;
+    line-height: 150%;
+    text-align: start;
+}
+
+.container-btn-main{
+    display: flex;
+    gap: 20px;
+}
+
+.btn-primary{
+    background-color: var(--color-secundary-dark);
+    color: var(--color-secundary-white);
+    border-radius: 15px 3px;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-family: var(--font-familly-david-libre);
+    font-size: var(--font-size-button);
+}
+
+.btn-secondary{
+    background-color: var(--color-primary-orange);
+    color: var(--color-secundary-white);
+    border-radius: 15px 3px;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-family: var(--font-familly-david-libre);
+    font-size: var(--font-size-button);
+}
