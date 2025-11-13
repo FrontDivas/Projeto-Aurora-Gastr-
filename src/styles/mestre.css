@@ -1,0 +1,70 @@
+@import url(../../global.css);
+
+.section-mestre {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 60px 0;
+
+}
+
+.container-mestre {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 503px;
+}
+
+.container-mestre h2 {
+    font-family: var(--font-familly-david-libre);
+    font-size: var(--font-size-h2);
+}
+
+.container-mestre span {
+    color: var(--color-primary-orange);
+}
+
+.container-mestre p {
+    font-size: var(--font-size-body);
+    font-family: var(--font-familly-inter);
+    color: var(--color-secundary-L_gray);
+    line-height: 30px;
+}
+
+.container-btn-mestre {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-primary-mestre {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 30px;
+    background-color: var(--color-black);
+    border-radius: 15px 3px;
+    text-decoration: none;
+    color: var(--color-secundary-white);
+    font-size: var(--font-size-button);
+    font-family: var(--font-familly-david-libre);
+}
+
+.btn-secundary-mestre {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 30px;
+    background-color: var(--color-primary-orange);
+    border-radius: 15px 3px;
+    text-decoration: none;
+    color: var(--color-secundary-white);
+    font-size: var(--font-size-button);
+    font-family: var(--font-familly-david-libre);
+}
+
+.img-meste {
+height: 669px;
+
+}
