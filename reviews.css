@@ -1,0 +1,65 @@
+@import url(./global.css);
+
+.section-reviews {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px 0;
+    gap: 25px;
+}
+
+.section-reviews h2 {
+    font-family: var(--font-familly-david-libre);
+    font-size: var(--font-size-h2);
+    font-weight: bold;
+}
+
+.section-reviews h2 span {
+    color: var(--color-primary-orange);
+}
+
+.container-reviews {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2 1fr);
+}
+
+.card-reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    padding: 25px 20px;
+    box-shadow: 0 0 6px 0 var(--color-black-25);
+    border-radius: 40px 8px;
+}
+
+.user-reviews {
+    display: flex;
+    gap: 15px;
+}
+
+.infor-user-testimony {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.infor-user-testimony h3{
+    font-family: var(--font-familly-david-libre);
+    font-size: var(--font-size-h4);
+}
+
+.infor-user-testimony h3 span{
+    color: var(--color-primary-orange);
+}
+
+.card-reviews p{
+    color: #101A24;
+    width: 358px;
+    font-size: var(--font-size-body);
+    font-family: var(--font-familly-inter);
+    font-weight: 400;
+}
