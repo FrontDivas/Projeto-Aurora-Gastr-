@@ -5,12 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./cardapio.css">
+    <link rel="stylesheet" href="./src/styles/cardapio.css">
 </head>
 
 <body>
     <section class="section-cardapio">
-        <h2>pratos em <span>destaque</span></h2>
+
+        <div class="titulo-cardapio">
+            <h2>pratos em <span>destaque</span></h2>
+        </div>
+
 
         <div class="container-cardapio">
             <div class="card-prato">
@@ -18,12 +22,14 @@
                     <img src="./src/assets/img/Bacon & Ovos Gourmet.svg" alt="Prato Bacon & Ovos Gourmet">
                 </div>
 
+                <div class="dados-pratos">
                 <h3>Bacon & Ovos Gourmet</h3>
 
                 <p>
                     Ovos fritos no ponto perfeito, acompanhados de fatias crocantes de bacon, batatas douradas,
                     tomatinhos frescos, rabanete e folhas verdes selecionadas.
                 </p>
+                </div>
             </div>
 
             <div class="card-prato">
@@ -31,11 +37,14 @@
                     <img src="./src/assets/img/Bife Grelhado Gourmet.svg" alt="Prato Bife Grelhado  Gourmet">
                 </div>
 
-                <h3>Bife Grelhado Gourmet</h3>
+                <div class="dados-pratos">
+                <h3>Bife Grelhado  Gourmet</h3>
 
                 <p>
-                    Suculento bife grelhado ao ponto, servido com rúcula fresca, tomates assados, e uma rodela de limão siciliano tostado para realçar os sabores.
+                    Suculento bife grelhado ao ponto, servido com rúcula fresca, tomates assados, e uma rodela de limão
+                    siciliano tostado para realçar os sabores.
                 </p>
+                </div>
             </div>
 
             <div class="card-prato">
@@ -43,11 +52,14 @@
                     <img src="./src/assets/img/Fusilli Mediterrâneo.svg" alt="Prato Fusilli Mediterrâneo">
                 </div>
 
+                <div class="dados-pratos">
                 <h3>Fusilli Mediterrâneo</h3>
 
                 <p>
-                    Massa fusilli al dente, envolta em molho de tomate fresco, berinjela assada, tomates cereja e manjericão fresco, finalizada com um toque de azeite extra virgem.
+                    Massa fusilli al dente, envolta em molho de tomate fresco, berinjela assada, tomates cereja e
+                    manjericão fresco, finalizada com um toque de azeite extra virgem.
                 </p>
+                </div>
             </div>
 
             <div class="card-prato">
@@ -55,15 +67,25 @@
                     <img src="./src/assets/img/Spaghetti Gourmet.svg" alt="Prato Spaghetti Gourmet">
                 </div>
 
-                <h3>Spaghetti Gourmet</h3>
 
+                <div class="dados-pratos">
+                <h3>Spaghetti Gourmet</h3>
                 <p>
-                    Massa al dente envolta em rico molho bolognesa artesanal, com tomates cereja selecionados, parmesão ralado e folhas frescas de manjericão.
+                    Massa al dente envolta em rico molho bolognesa artesanal, com tomates cereja selecionados, parmesão
+                    ralado e folhas frescas de manjericão.
                 </p>
+                </div>
+
             </div>
 
 
+
+
         </div>
+
+        <nav class="container-btn-cardapio">
+            <a href="" class="btn-secundary-cardapio">Ver cardápio</a>
+        </nav>
 
     </section>
 
