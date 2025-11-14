@@ -1,0 +1,102 @@
+@import url(../../global.css);
+
+.section-cardapio {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    background: var(--color-primary-orange-10);
+
+}
+
+.titulo-cardapio h2 {
+    font-family: var(--font-familly-david-libre);
+    font-size: var(--font-size-h2);
+    text-transform: capitalize;
+    margin-top: -50px;
+    margin-bottom: 80px;
+}
+
+.titulo-cardapio h2 span {
+    color: var(--color-primary-orange);
+}
+
+.container-cardapio {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.card-prato {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 390px;
+    background: var(--color-secundary-white);
+    padding: 70px 24px;
+    gap: 25px;
+    font-family: var(--font-familly-inter);
+    box-shadow: 0 6px 18px var(--color-black-25);
+    border-radius: 20px 5px;
+    position: relative;
+}
+
+.card-prato-img {
+    width: 200px;
+    height: 197px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: -90px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card-prato-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dados-pratos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.dados-pratos h3 {
+    font-family: var(--font-familly-david-libre);
+    font-size: var(--font-size-h3);
+    color: var(--color-secundary-dark);
+    margin-top: 55px;
+    width: 174px;
+
+}
+
+.dados-pratos p {
+    font-size: var(--font-size-body);
+    line-height: 1.6;
+    color: var(--color-secundary-L_gray);
+}
+
+.container-btn-cardapio {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-secundary-cardapio {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 30px;
+    background-color: var(--color-primary-orange);
+    border-radius: 15px 3px;
+    text-decoration: none;
+    color: var(--color-secundary-white);
+    font-size: var(--font-size-button);
+    font-family: var(--font-familly-david-libre);
+}
